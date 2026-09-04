@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main(){
+
+    char item_name[50]= " ";
+    int quantity;
+    float price;
+    char currency = '$';
+
+    printf("Enter your item: ");
+    fgets(item_name, sizeof(item_name), stdin);
+
+    printf("How Many? ");
+    scanf("%d", &quantity);
+
+    printf("Price of each? ");
+    scanf("%f" , &price);
+
+    float total = price * quantity;
+
+    printf("Your total is: %.2f %c " , total, currency);
+    return 0;
+}
