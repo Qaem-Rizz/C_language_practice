@@ -1,6 +1,6 @@
 <div align="center">
 
-# 💻 C Language Practice Repository
+# 💻 C-Language Practice Repository
 
 **A hands-on collection of C programs, mini-projects, logic building algorithms, and fundamentals.**
 
